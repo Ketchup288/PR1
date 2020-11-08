@@ -8,6 +8,7 @@ int main()
 	while (i <= 10)
 	{
 		i += p;
+		cout << "Now i: " << i << " and p is: " << p << endl;
 	};
 	cout << "p = " << p << " i = " << i << endl;
 	return 0;
